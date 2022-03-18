@@ -52,7 +52,6 @@ public class QuadTree {
             createBranch(tmp3,depth,stops);
             createBranch(tmp4,depth,stops);
 
-
             //add child to this node
             node.LEFT_TOP = tmp1;
             node.RIGHT_TOP = tmp2;
